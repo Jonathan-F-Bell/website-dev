@@ -11,5 +11,5 @@ This new version of my website is VERY under construction. I'll be writing posts
 
 ## Posts
 {% for post in site.posts %}
-[{{ post.title }}]({{ post.url }})
+[{{ post.title }}]({{ post.url | relative_url }})
 {% endfor %}
